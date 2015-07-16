@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <title>Locations</title>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true"></script>
+    <script>
+function initialize() {
+  var myLatlng = new google.maps.LatLng(54.490930, -8.268179);
+  var mapOptions = {
+    zoom: 12,
+    center: myLatlng
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Hello World!'
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+function initialize1() {
+  var myLatlng = new google.maps.LatLng(54.404638, -8.556361);
+  var mapOptions = {
+    zoom: 12,
+    center: myLatlng
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas1'), mapOptions);
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Hello World!'
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize1);
+
+function initialize2() {
+  var myLatlng = new google.maps.LatLng(54.561998, -8.213317);
+  var mapOptions = {
+    zoom: 12,
+    center: myLatlng
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas2'), mapOptions);
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Hello World!'
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize2);
+
+    </script>
+    
+    </head>
+    
+    <body>
+    
+        <div id="wrapper">
+            <div id="header" >
+                <a href="Index.html"><img id="logo" src="images/logo.png" alt="Logo image"></a><h1>North West Surfing</h1>
+                
+                
+                <div id="navBar">
+                    <ul id="navBarList">
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a id="current" href="Locations.html">Locations</a></li>
+                        <li><a href="Rental.html">Rental</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div><!--end header-->
+            
+            
+            <div id="board">
+                
+                
+
+                <br><div id="bodyDiv"><br><h2> Tullan Strand</h2>
+                <div id="map-canvas"> </div><p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt turpis. Phasellus vitae ipsum a dolor dictum
+                porta in quis nulla. Curabitur aliquet augue id congue posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                molestie, quam auctor imperdiet vestibulum, nisl enim tempus sem, in facilisis ipsum urna maximus nisi. Maecenas efficitur rhoncus
+                quam eget feugiat. Vestibulum efficitur, odio et facilisis consectetur, orci odio euismod augue, eget tincidunt ligula neque a diam.
+                Donec mattis consectetur lacinia. Donec aliquam imperdiet quam fringilla luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt turpis. Phasellus vitae ipsum a dolor dictum
+                porta in quis nulla. Curabitur aliquet augue id congue posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                molestie, quam auctor imperdiet vestibulum, nisl enim tempus sem, in facilisis ipsum urna maximus nisi. Maecenas efficitur rhoncus
+                quam eget feugiat. Vestibulum efficitur, odio et facilisis consectetur, orci odio euismod augue, eget tincidunt ligula neque a diam.
+                Donec mattis consectetur lacinia. Donec aliquam imperdiet quam fringilla luctus.</p>
+                
+                <br><h2> Streedagh</h2>
+                 <div id="map-canvas1"></div><p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt turpis. Phasellus vitae ipsum a dolor dictum
+                porta in quis nulla. Curabitur aliquet augue id congue posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                molestie, quam auctor imperdiet vestibulum, nisl enim tempus sem, in facilisis ipsum urna maximus nisi. Maecenas efficitur rhoncus
+                quam eget feugiat. Vestibulum efficitur, odio et facilisis consectetur, orci odio euismod augue, eget tincidunt ligula neque a diam.
+                Donec mattis consectetur lacinia. Donec aliquam imperdiet quam fringilla luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt turpis. Phasellus vitae ipsum a dolor dictum
+                porta in quis nulla. Curabitur aliquet augue id congue posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                molestie, quam auctor imperdiet vestibulum, nisl enim tempus sem, in facilisis ipsum urna maximus nisi. Maecenas efficitur rhoncus
+                quam eget feugiat. Vestibulum efficitur, odio et facilisis consectetur, orci odio euismod augue, eget tincidunt ligula neque a diam.
+                Donec mattis consectetur lacinia. Donec aliquam imperdiet quam fringilla luctus.</p>
+                
+                <br><h2> Rossknowlagh</h2>
+                <div id="map-canvas2"></div><p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt turpis. Phasellus vitae ipsum a dolor dictum
+                porta in quis nulla. Curabitur aliquet augue id congue posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                molestie, quam auctor imperdiet vestibulum, nisl enim tempus sem, in facilisis ipsum urna maximus nisi. Maecenas efficitur rhoncus
+                quam eget feugiat. Vestibulum efficitur, odio et facilisis consectetur, orci odio euismod augue, eget tincidunt ligula neque a diam.
+                Donec mattis consectetur lacinia. Donec aliquam imperdiet quam fringilla luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt turpis. Phasellus vitae ipsum a dolor dictum
+                porta in quis nulla. Curabitur aliquet augue id congue posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                molestie, quam auctor imperdiet vestibulum, nisl enim tempus sem, in facilisis ipsum urna maximus nisi. Maecenas efficitur rhoncus
+                quam eget feugiat. Vestibulum efficitur, odio et facilisis consectetur, orci odio euismod augue, eget tincidunt ligula neque a diam.
+                Donec mattis consectetur lacinia. Donec aliquam imperdiet quam fringilla luctus.</p></div>
+                
+               
+                
+               
+                <!--div id="map-two"></div>
+                <div id="map-three"></div-->
+            </div>
+        </div><!--end wrapper-->
+    
+    
+    </body>
+    
+    
+
+</html>

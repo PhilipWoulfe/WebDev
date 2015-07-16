@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="mq.css" rel="stylesheet" type="text/css">
+<title>Website Design</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" id="logo">
+        <ul id="navbar">
+            <li><a href="index.html" title="Continuity and Consistency">CONSISTENCY</a></li>
+            <li><a href="sym.html" title="Symmetry, Balance and Scale">SYMMETRY</a></li>
+            <li><a href="colour.html" title="Use of Colour">COLOUR</a></li>
+            <li><a id="current" href="typ.html" title="Typography">TYPOGRAPHY</a></li>
+        </ul> 
+    </header>
+    
+    <img class="mainimg" id="colour" src="images/typ.png">
+    
+    <div id="wrapper">
+        <div class="col" id="col1">
+            <h1>Typography</h1>
+            <p>The importance of typography in design is often overlooked by those outside the industry. After all it’s just words, isn’t it? Why so
+            important? Typography is there for a reason. At its most basic it is there simply to be read. Further than that, and in a much wider
+            sense it is there to communicate.</p>
+            
+            <h3>Fundamentals</h3>
+            <p>Probably the most basic thing about type is that is has to be read, so therefore it must be visually distinct from its background.
+            This can be done in a number of ways dependent upon the type of background used. On plain backgrounds, complex or extravagant type may
+            be used. Details such as Drop Shadows can be used to add depth. On complex backgrounds plain and simple tones work well to define the
+            type.</p>
+            
+            <blockquote>“Good typography depends on the visual contrast between one font and another and the contrast between text blocks and the
+            surrounding empty space. Nothing attracts the eye and brain of the viewer like strong contrast and distinctive patterns, and you only
+            get those attributes by carefully designing them into your pages” </blockquote>
+            
+            <p>Much has been written about the psychology of how the brain interprets the written word, the importance of Contrast and Placement, of
+            Leading and Tracking, but the thing that helps to understand the importance of typography is to place a single letter onto an image. Move
+            it around, try to find the best position within the composition, play with its opacity. Notice its interaction with the background image
+            Learn to understand, it is visual communication. A single letter is at once subtle and complex; it has meaning within and without context.
+            It is a graphical symbol, a digital representation. Typography, like other aspects of Design, is about the bigger picture, it’s about what
+            its saying. The medium is the message.</p>
+            <p>Typography is the art of arranging type into a legible, aesthetically pleasing and design-appropriate layout. In print this is set in
+            stone; the reader can't change the way the text appears once it's been printed. On the web, however, users can adapt their browser
+            settings to increase or decrease the default font size, overwrite font-size choices the designer has made, or change colours to increase
+            contrast. Consequently, you might think that effective typography isn't possible on the web. But not only is it possible; in many ways
+            the web offers superior options to traditional typography. Not because as a designer you have finer control over how type is arranged or
+            positioned, but because the web allows users to control the appearance of type to suit their own particular needs.</p>
+
+            <h3>Fonts</h3>
+            <p>It used to be that if you wanted to render type on the web so that it appeared in the same font across different computers, you had to
+            stick to a paltry handful of fonts common to all browsers and computers. This strictly limited palette of fonts led to a depressing
+            homogenization of typography on the web, depriving web designers from the joys (or horrors) of a full set of fonts to choose from.
+            Thankfully this has all changed! For the first time, a wide range of fonts is available for use on the web, and web design is evolving
+            to take full advantage. </p>
+            
+            <p>Here are just a few points regarding the use of fonts in web design:
+                <ul>
+                    <li><span class="bolded">Less is more:</span> Choose one base font, and one display font, and try to stick to that. Just because
+                    there are thousands of fonts available, it doesn't mean you have to use them all in your design</li>
+                    <li><span class="bolded">Stick to fonts designed for purpose:</span> There's no point using a display font for your paragraph copy
+                    as display fonts have been designed to be used in small bursts: they're ideal as headlines, but not optimized for reading large
+                    passages.</li>
+                    <li><span class="bolded">Choose appropriate fonts:</span> Make sure you choose fonts that are appropriate for your subject matter.
+                    A script font might work well to represent a hand-written letter, but it's not going to give a professional impression if you're
+                    using it on a corporate website.</li>
+                    <li><span class="bolded">Mind the gaps:</span> The space around the words is equally important to the words themselves. Restraint
+                    in the number of competing elements will clarify the message, allowing the reader to fully engage. This is not to say avoid
+                    decorative elements or graphics but to make sure there is clarity and distinction in words and images.</li>
+                </ul>
+            </p>
+            
+        </div>
+        <div class="col" id="col2">
+            <h1>Leading, Tracking and Kerning</h1>
+            <p>A good piece of typography should melt away, being almost imperceptible as it facilitates easy reading, showcasing the content. In
+            print there are many ways to control type, and the way individual lines, words and characters interact with each other. These options
+            include the ability to set the leading (the space between lines), tracking (the uniform space between letters across a passage of text)
+            and kerning (the spacing between two specific characters).</p>
+            
+            <p>All typographical properties are best set in relative units such as ems to allow for scenarios where text is resized by the reader.
+            On the web, there are similar controls for both tracking and leading, but kerning isn't directly controllable using CSS. To set your
+            leading, use the CSS property line-height. To control tracking, use letter-spacing. You can also control the space between words using
+            the word-spacing property, allowing you to open up your text without increasing the tracking to an uncomfortable degree.</p>
+            
+            <p>If you want to kern between individual characters, the only practical way to do so is to wrap the affected characters in their own
+            &lt;span&gt; tags. You can then apply CSS properties to the span, controlling the kerning. This can become a big job very quickly, so use
+            sparingly! All the same best-practice rules apply to spacing on the web as in print, so it's well worth reading up on how to choose an
+            effective level of leading, tracking etc. Consider using a grid to help you align the baselines of your type into a clear structure to
+            aid both legibility and improve design coherence. </p>
+            
+            <h3>Column Width</h3>
+            <p>The width of a text column can strongly impact on its readability. In print, columns are typically set to contain anything between 45
+            and 75 characters (which are approximately 9 to 15 words wide). This is considered to be the ideal width for text, allowing the reader
+            to easily move between lines without losing their place. The same general rules apply on the web, so aim to set your type in columns no
+            more than around 80 characters wide. Just as in print, on the web you can set your type using either ragged line endings, or justified.
+            Use the text-align property, and choose either left for ragged right, right for ragged left, or justify for fully justified text without
+            the ragged line endings. New to CSS3 is the text-justify property, which allows fine control over how justified text is spaced to fill the
+            line. Unfortunately, browser support is still very sketchy at present.</p>
+            
+            <h3>Typographic alignment</h3>
+            <p>Just as in print, on the web you can set your type using either ragged line endings, or justified. Use the text-align property, and
+            choose either left for ragged right, right for ragged left, or justify for fully justified text without the ragged line endings. New to
+            CSS3 is the text-justify property, which allows fine control over how justified text is spaced to fill the line. Unfortunately, browser
+            support is still very sketchy at present.</p>
+            
+            <h3>The Future</h3>
+            <p>The Web allows the use of other media besides type and graphics; Video and animation for example. With animation typography can show
+            actual physical ‘movement’ instead of just suggested ‘movement’. Communication is still the name of the game, but what is been
+            communicated works on many differing levels.</p>
+            
+            <h3 id="sor">Researched Sources</h3>
+            <p><a href="http://info.med.yale.edu/caim/manual/pages/typography.html">Patrick Lynch and Sarah Horton (Yale Caim Webstyle Guide) (2000) – “Visual Contrast and Web Design”;</a></p>
+        </div>
+        
+        <div class="col" id="col3">
+            <hr>
+            <h1>Website comparison</h1>
+            <h3>Click images for link</h3>
+            <div class="eg">
+                <a href="http://www.jesus-is-savior.com/"><img class="image" src="images/badTyp1.png"></a>
+                <p>This website is an example of bad typography. The text sizes, styles and fonts are changed constantly leaving an unorganised
+                structure to the information. It is hard to read through as the content consistency causes the user to unable to keep track of
+                what they’re reading or lose their place.<br><br>
+                
+                The overuse of headers and the changing of font size make everything lose all sense of importance and feels like everything is
+                incoherently screaming at you.</p>
+            </div>
+            <br>
+            <div class="eg">
+                <a href="http://www.sihs.bie.edu/index.htm"><img class="image" src="images/badTyp2.png"></a>
+                <p>This website uses far too many different fonts (at least 6 types). The consistency of the design and layout are considerably
+                bad but the choice in altering the font type in every new line of text was a poor one. The designer didn’t know which font they
+                liked best so they decided to use all of them.<br><br>
+                
+                The ever changing font is continued on other pages of the website with the same result. Is gives the impression that everything
+                is lost and unprofessional; Not something you want in a website.</p>
+            </div>
+            <br>
+            <div class="eg">
+                <iframe src="http://www.landrover.co.uk" width="650px" height="500px"></iframe>
+                <p>This websites typography uses bold font to draw the users eye to key words which corresponds with the brand values
+                and qualities.  <br><br>
+                
+                The text is so pronounced that when the image background changes, the font can still clearly be read which
+                makes this particular use of text successful and professionally layed out.
+                <br><br>
+                
+                In my opinion Land Rover have paid a lot of attention to detail in there typography design and execution.</p>
+            </div>
+            <br>
+            <div class="eg">
+                <a href="http://www.beoplay.com/products/h6-rapha-edition#in-the-zone"><img class="image" src="images/typography2.png"></a>
+                <p>This websites typography uses clean white font with a minimal black background design making the text the focal point
+                of the website.
+                <br><br>
+                
+                 The users eye is drawn to the site typography and in this case, the site sells its product with clever use of text.
+                 <br><br>  
+                
+                 The use of coloured secondary font on key words in the typography make a statement to the user. The use of this secondary
+                 coloured text is continued thoughout the site on keywords which draws to users eye to important content and because of this,
+                 I feel this websites typography is very successful.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <ul id="footerlist">
+            <li>Anthony Carroll</li>
+            <li>Philip Woulfe</li>
+            <li>Marc Anthony Palminteri</li>
+            <li>Kevin Homan</li>
+        </ul>
+    </footer>
+
+</body>    
+</html>

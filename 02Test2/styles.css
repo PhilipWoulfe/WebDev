@@ -1,0 +1,144 @@
+#myName {
+    float: left;
+}
+
+#myAddress {
+    float: right;
+}
+
+#myNumber {
+    float: left;
+}
+
+#myEmail {
+    float: right;
+}
+
+.relative1 {
+    position: relative;
+    top: -100px;
+    left: -50px;
+}
+.relative2 {
+    position: relative;
+    top: -30px;
+    right: -50px;
+}
+.relative3 {
+    position: relative;
+    top: 0px;
+    right: -495px;
+}
+.relative4 {
+    position: relative;
+    top: 0px;
+    left:-400px;
+}
+
+table, th, td {
+   table-layout:fixed;
+   table-width: 100%;
+   font-style:
+}
+th, td {
+    padding: 15px;
+}
+td#td_first {
+    width=20%;
+}
+
+
+p#list{
+    text-align:justify;
+}
+p#perpro{
+    text-align:justify;
+}
+div#wrapper{
+    
+}
+
+ul#interests li{
+    display:inline;
+    
+}
+ul#interests {
+    padding: 0;
+}
+
+ul#interests:hover {
+    padding: 0;
+    
+}
+#interests li a{
+    width: 500px;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 6px 6px 6px 6px;
+    
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    
+}
+
+#interests li a:hover {
+    background-color: orange;
+    border-radius: 25px 25px 25px 25px;
+    width: 700px;
+    
+    
+    
+}
+#name {
+    background-color: black;
+    border-radius: 25px 25px 25px 25px;
+    color: white;
+    padding: 100px;
+    margin: 10px;
+}
+#head {
+    background-color: orange;
+    border-radius: 25px 25px 25px 25px;
+    padding: 25px;
+}
+
+#education {
+    background-color: yellow;
+    border-radius: 25px 25px 25px 25px;
+    padding: 25px;
+}
+
+#work {
+    background-color: green;
+    border-radius: 25px 25px 25px 25px;
+    padding: 25px;
+}
+
+#other {
+    background-color: gray;
+    border-radius: 25px 25px 25px 25px;
+    padding: 25px;
+}
+
+#date {
+    font-weight: bold;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    background-color: #FFFFFF;
+    

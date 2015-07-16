@@ -1,0 +1,156 @@
+* { /*border: 1px solid red;*/ }
+
+
+body {
+    margin: 0px;
+    background-image: url(images/splash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 130%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+    
+}
+
+.restBody {
+    background-image: url(images/apple-pie-6.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.galBody {
+    background-image: url(images/galleryback.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.actBody {
+    background-image: url(images/activitiesBack.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#header {
+    margin: 0px;
+}
+
+#wrapper {
+    width: 1265;
+    margin: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#logo {
+    float: left;
+    width: 31.25%;
+    min-height: 100px;
+    
+}
+
+#navbar {
+    margin-left: 10%;
+    background-color: #2d2e6d;
+    
+    padding: 5px;
+    padding-bottom: 5px;
+    padding-top: 7%;
+    padding-left: 10%;
+    
+   
+    
+    
+}
+
+#navbar a {
+    padding: 15px;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    /*border: 1px dashed red;*/
+}
+
+#navbar li {
+    display: inline-block;
+    color: white;
+    width: 18%;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    /*border: 1px dashed blue;*/
+    
+}
+
+#navbar li:hover {
+    color: #608e6d;
+}
+
+#main {
+    
+   
+    margin-top: 600px;
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    
+    background-size: 100%;
+    
+    color: white;
+    
+    /*min-height: 790px;*/
+    max-width: 100%;    
+    
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+    
+    
+    
+}
+
+.mainIndex {
+     -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    -moz-column-count: 3;
+    -moz-column-gap: 20px;
+    column-count:3;
+    column-gap:20px; 
+}
+
+.mainGal {
+    min-height: 800px;
+}
+
+.mainRest p {
+    text-align: center;
+}
+
+.restimg {
+    width: 75%;
+    margin: auto;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 30px;
+    
+    
+}
+
+#main p {
+    
+    
+}
+#current {
+    background-image: url(images/ribbon3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #2d2e6d;
+    z-index: -1;
+}
+
+#current li {
+    color: #2d2e6d;
+}

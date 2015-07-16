@@ -1,0 +1,59 @@
+#logo {
+    width: 100%;
+    padding-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+#navbar {
+    float: left;
+    margin: 0px;
+    width:80%;
+    background-color: pink;
+    
+}
+
+#navbar li {
+    display: block;
+    clear: both;
+    width: 100px;
+    height: 30px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 0px;
+ 
+    
+    
+    
+}
+
+#navbar a {
+    width: 100px;
+    height: 30px;
+    border: red dashed 1px;
+    
+}
+
+#main {
+    clear: both;
+}
+
+#current {
+    background-image: url(images/ribbon.png);
+    background-repeat: no-repeat;
+    
+    background-size: contain;
+   
+    
+}
+
+.mainIndex {
+     -webkit-column-count: 1;
+    -webkit-column-gap: 20px;
+    -moz-column-count: 1;
+    -moz-column-gap: 20px;
+    column-count:1;
+    column-gap:20px; 
+}

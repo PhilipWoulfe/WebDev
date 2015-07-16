@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width">
+            
+            <link href="mediaqueries.css" rel="stylesheet" type="text/css">
+        </head><!-- end head -->
+        
+        <body>
+            <div id="wrapper">
+                <div id="bar1">
+                    
+                </div>
+                <div id="learn" class="name">
+                    <h2>Learn</h2>
+                </div>
+                <a href="web.html">
+                    <div id="leftImg" onmouseover="narrow1()" onmouseout="restore()">
+                    </div>
+                </a>
+                <a href="design.html">
+                    <div id="rightImg" onmouseover="narrow()" onmouseout="restore()">
+                    
+                    </div><!-- End RightImg-->
+                </a>
+                <div id="make" class="name">
+                    <h2>Make</h2>
+                </div>
+                <div id="bar2">
+                    
+                </div>
+            </div><!-- end wrapper -->
+            
+            <script>
+                function narrow() { //narrow left image to 0
+                    document.getElementById("leftImg").style.width = '0%';
+                    document.getElementById("learn").style.opacity = 0;
+                    
+                }
+                
+                function restore() { // return left image to middle
+                    document.getElementById("leftImg").style.width='50%';
+                    document.getElementById("make").style.opacity=1;
+                    document.getElementById("learn").style.opacity=1;
+                    
+                }
+                
+                function narrow1() { // widen left image to 100
+                    document.getElementById("leftImg").style.width='100%';
+                    
+                    document.getElementById("make").style.opacity=0;
+                }
+                
+                
+            </script>
+        
+        </body><!-- end body -->
+        
+    </html>
+    
+    

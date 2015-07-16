@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+html {
+    font-size: 0px;/*removes white space between child divs*/
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+    margin: 3% 0% 0% 3%;
+}
+
+h2 {
+    font-size: 1.85em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+p {
+    color: black;
+}
+
+
+img {
+    
+    width: 90%;
+    margin: 5%;
+    padding: auto;
+    text-align: center;
+   
+}
+
+video {
+    width: 90%;
+    margin: 5%;
+}
+#wrapper {
+    width: 80%;
+    min-height: 1000px;
+    margin: auto;
+    /*border: 1px dashed red;*/
+}
+
+#header {
+    width: 100%;
+    min-height: 150px;
+    margin: auto;
+    /*border: 1px dashed blue;*/
+}
+
+#navBar {
+    width: 100%;
+    min-height: 50px;
+    
+    background-color: black;
+    
+    font-size: 15px;
+    
+    
+}
+
+#navBar ul {
+    padding: 1%;
+}
+
+#navBar li {
+    
+    display: inline-block;
+    
+}
+
+#navBar li a {
+    
+    font-style-type: none;
+    color: black;
+    text-decoration: none;
+    background-color: red;
+    padding: 3px;
+    margin: 3px;
+}
+
+#navBar li a:hover {
+    background-color: black;
+    color: red;
+}
+#upper {
+    width: 100%;
+    min-height: 500px;
+    margin: auto;
+    /*border: 1px dashed green;*/
+}
+
+#lower {
+    width: 100%;
+    min-height: 500px;
+    margin: auto;
+    /*border: 1px dashed yellow;*/
+}
+
+.upperColumn {
+    width: 23%;
+    min-height: inherit;
+    padding: 1%;
+    /*background-color: grey;*/
+    
+    
+     float:left;
+    
+    font-size: 15px;
+    text-align: justify;
+}
+.upperCenterColumn {
+    width: 47%;
+    min-height: inherit;
+    height: inherit;
+    margin: inherit;
+    padding: 1%;
+    /*background-color: blue;*/
+    
+    
+    float:left;
+    
+    font-size: 15px;
+    text-align: justify;
+}
+
+#banner {
+    width: 100%;
+    min-height: 100px;
+    margin: 0px;
+    
+    clear: both;
+}
+
+#banner li {
+    display: inline;
+}
+
+#banner li img {
+    margin: 1%;
+}
+.lowerColumn {
+    width: 23%;
+    min-height: inherit;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    
+    
+    float: left;
+    
+    font-size: 15px;
+    text-align: justify;
+    
+    padding: 1%;
+}
+
+.centerImg {
+    width: 33%;
+    float: left;
+    
+    
+}
+.tableClass {
+    margin-left: 1%;
+}
+.tableImg {
+    width: 125px;
+    padding: 1%;
+}
+
+.bannerImg {
+    width: 14.5%;
+    max-height: 75px;
+    
+}
+

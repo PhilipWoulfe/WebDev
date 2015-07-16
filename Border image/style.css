@@ -1,0 +1,12 @@
+div {
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    border: 50px double orange;
+    border-image: url(border.png) 23% 23% 22% 21% repeat;
+    background-color: pink;
+}
+
+#div2 {
+     border-image: url(border2.png) 20% 22% 19.5% 20.5% repeat;
+}

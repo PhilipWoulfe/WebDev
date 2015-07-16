@@ -1,0 +1,158 @@
+* {
+    
+
+}
+
+body {
+    
+}
+
+html {
+
+}
+
+html, body {
+    
+    padding:0;
+    margin:20%;
+    
+    
+}
+
+h2 {
+    font-size: 4em;
+}
+
+#wrapper {
+    
+    padding: 0;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height: 95%;
+    
+    
+}
+
+#bar1 {
+    float: left;
+    position: absolute;
+    
+    min-height: 10%;
+    width: 100%;
+    padding:0;
+    z-index: 2;
+    background-color: white;
+    
+}
+
+#leftImg {
+    
+    position: fixed;
+    
+    display: inline-block;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-image: url(images/BookLarge2.png);
+    background-repeat: no-repeat;
+    
+    
+    
+    
+    min-height: 95%;
+    max-height: 100%;
+    width: 50%;
+    padding:0;
+    
+    /*border: black 1px dashed;*/
+    background-color: yellow;
+    
+    
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+
+    width:50%;
+    
+    
+    z-index: 1;
+
+}
+
+#leftImg:hover {
+    
+   
+    /*
+    width:100%;
+    */
+    
+    
+}
+
+#learn {
+    position: absolute;
+    /*border: 10px yellow dashed;*/
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    z-index: 3;
+    
+    top: 15%;
+    left: 5%;
+}
+
+#rightImg {
+    
+    
+    position: fixed;
+    
+    
+    overflow: hidden;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-image: url(images/MoniterLarge2.png);
+    background-repeat: no-repeat;
+    
+    min-height: 95%;
+    max-height: 100%;
+    
+    width: 100%;
+    
+    padding:0;
+    margin:0;
+    /*border: black 1px dashed;*/
+    background-color: yellow;
+}
+
+#make {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    /*border: 10px yellow dashed;*/
+    
+    color: white;
+    
+    z-index: 3;
+    
+    top: 15%;
+    right: 5%;
+}
+
+#bar2 {
+    float: left;
+    position: absolute;
+    margin-top: 67%;
+    min-height: 9%;
+    width: 100%;
+    padding:0;
+    z-index: 2;
+    background-color: white;
+    
+}

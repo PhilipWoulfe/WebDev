@@ -1,0 +1,183 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:rgba( 255, 255, 255, 0.7);
+    width: 80%;
+    
+    min-height: 1000px; /* why not %*/
+}
+
+#header {
+    margin-top: -2.5%;
+    /*border: dotted blue 2px;*/
+    
+}
+
+#logo {
+    width: 25%;
+    float: left;
+    margin: 5% 5% 0px 5%;
+    /*border: dotted black 2px;*/
+    
+    
+}
+
+#navBar {
+    
+    margin-left: 50%;
+    margin-top: 0px;
+    /*border: dotted red 2px;*/
+    
+}
+
+#navBar li {
+    display: inline;
+    
+}
+#navBar li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #8F986A;
+    position: relative;
+    
+    top: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    margin: 5px;
+    font-family: 'Rock Salt', cursive;
+    
+}
+
+
+
+#navBar li a:hover {
+    background-image: url(images/black.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    
+}
+
+#navBar li a.dir:hover {
+    background-image: url(images/black1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+#navBar li a.main:hover {
+    background-image: url(images/black3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+#navBar #current {
+    background-image: url(images/tab.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#splash {
+    margin: 10%;
+    border-radius: 50%;
+    
+    width: 60%;
+}
+
+#main {
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1em;
+    font-family: 'Permanent Marker', cursive;
+    text-align: justify;
+    /*border: dotted green 2px;*/
+    color: #335e87;
+}
+
+#mainP {
+    text-align: center;
+     
+}
+
+#alice {
+    float: right;
+    margin-top: 3%;
+    margin-right: 0px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    
+    border-radius: 8%;
+    
+    width: 33%;
+    /*
+    position: relative;
+    top: -300px;
+    */
+}
+
+
+#alice2 {
+    float: left;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 0px;
+    margin-bottom: 2%;
+    
+    border-radius: 8%;
+    
+    width: 33%;
+    /*
+    position: relative;
+    top: -300px;
+    */
+}
+/*
+#thing {
+    width: 100%;
+    
+}
+*/
+
+#dirP {
+    font-family: 'Rock Salt', cursive;
+    font-size:  2em;
+    text-align: center;
+    margin-top: 30%;
+    color: #335e87;
+}
+
+#lyricsP{
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-top: 5%;
+    margin-left: 15%;
+    text-align: justify;
+    color: #335e87;
+}
+#footer {
+    width: 80%;
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+     /* why 79?*/
+    background-color: #335e87;
+    opacity: 1;
+    color: #8F986A;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: .5em;
+}

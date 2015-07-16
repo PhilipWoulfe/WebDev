@@ -1,0 +1,55 @@
+Symmetry
+
+	Symmetry is the mirroring of a shape or image used to create a sense of balance. It occurs around a point or axis. There are many forms of symmetry.
+
+	"Symmetrical design relies on principles of balance, rhythm, proportion and unity to create a style with mirroring sides...But symmetrical design is not always identical design."[1]
+
+  
+
+	This is usually the easiest to identify, if the left and right sides of the image or shape are a reflection of each other, the shape is symmetrical. The human body is one example of this, although it is not as symmetrical as it appears. We think of our faces as symmetrical, however when show an image of either the left or right half our face mirrored, the result can be surprisingly different from our actual faces.
+
+Vertical symmetry
+	This is similar to horizontal symmetry but with a horizontal axis instead of a vertical axis. This doesn't occur often in nature.
+
+Radial symmetry
+	This is symmetry on multiple axis, for example a honeycomb or a starfish. It has fallen out of favour in web design since the 1990s. However it is still used in logo and print design.
+
+Colour symmetry
+	Symmetry is usually used to refer to shape, however the colour wheel also has symmetry to it. The opposing colours on the wheel complement each other and can be used to create a sense of balance and harmony.
+
+Asymmetry
+	Symmetrical design isn't always the best choice. Asymmetry can be used to create more interesting and visually appealing designs. It can be used to attract attention to specific areas of a picture or web page.
+
+
+
+Balance
+
+	"Another tendency for non-designers working on layouts is to center-align everything on
+a page...[the] reason is a desire for balance."[2]
+
+	As with an old fashioned weighing scale, if the two sides of the scales have the same weight, they can be said to be balanced. Balance can be divided into symmetrical and asymmetrical balance.
+
+Symmetrical Balance
+	If the two sides of the scales have the same weight and the same size and shape, they have symmetrical balance. An example of this in web design would be a website which mirrors its design on a vertical axis. 
+
+Asymmetrical Balance
+	If the two sides of the scales have the same weight but different size and shape, the have asymmetrical balance. If a website is going to have an asymmetrical design, it is important that it is a balanced design.
+
+
+
+Scale
+
+	"Size: the physical dimensions of an object
+	Scale: the relative size of different objects or of an object to a common standard
+	Proportion: harmony of scale"[3]
+
+	Scale is important in web design, if all the text is the same size, it is difficult to know where to start reading and what is important. Scale lets us divide the page into sections and differentiate between them.
+
+Proportion
+
+	An object out of proportion with the rest of the design can draw the eye to it. This can be used effectively to draw attention to a specific part of the web page.
+
+
+[1]12:08 27/05/2015
+[2]The Principles of Beautiful Web Design - by Jason Beaird, pg12
+[3]http://www.vanseodesign.com/web-design/size-scale-proportion/

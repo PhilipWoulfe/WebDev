@@ -1,0 +1,18 @@
+#leftImg {
+    background-image: url(images/BookLarge.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 50%;
+    /*border: black 1px dashed;*/
+    background-color: yellow;
+}
+
+#leftImg:hover {
+    width: 100%;
+    
+    
+}
+
+#rightImg {
+    
+}

@@ -1,0 +1,204 @@
+body {
+    background-image: url(images/background.jpg);
+    background-attachment: fixed;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    
+}
+
+
+#logo {
+    width: 25%;
+    height: 25%;
+    float: left;
+    
+    margin-right: 3%;
+    
+}
+
+
+#header {
+    background-color: white;
+    border-radius: 20px 0px 0px 20px;
+    padding: 1%;
+    opacity: .7;
+    position: fixed;
+    margin: 3%;
+    width: 99%;
+    
+}
+
+#navBarList {
+    padding-left: 13%;
+}
+
+#navBar {
+    background-color: black;
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: ;
+    padding: 1px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+#navBar li {
+    display: inline;
+    list-style-type: none;
+    
+    
+    
+}
+
+#navBar li a {
+    
+    font-size: 1em;
+    font-family: "Lucida Console", Monaco, monospace;
+    display: inline-block;
+    min-width: 20%;
+    background-color: #2dc8e4;
+    border-radius: 3px;
+    border: white solid 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    
+    text-align: center;    
+    
+}
+
+#navBar li a:hover {
+    background-color: black;
+    color: #2dc8e4;
+}
+#board {
+    /*background-color: red;*/
+    background-image: url(images/boardBack2.png);
+    background-repeat: no-repeat;
+    min-height: 4000px;
+    min-width: 100%;
+    
+    margin: -.5%;
+    margin-bottom: -1%;
+     
+}
+
+h1 {
+    font-size: 3em;
+    
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+#navBar #current {
+    background-color: #db913e;
+    
+}
+
+#navBar #current:hover{
+    background-color: black;
+    color: #2dc8e4;
+}
+
+#map-canvas {
+        
+        width: 500px;
+        height: 400px;
+        margin: 5%;
+        /*
+        margin-left: 350px;
+        margin-top: 100%;
+        */
+        
+        float: left;
+       
+      
+}
+
+#map-canvas p {
+        
+       text-align: justify;
+       
+      
+}
+
+#map-canvas1 {
+        
+        width: 500px;
+        height: 400px;
+        margin: 5%;
+       
+        /*
+        margin-left: 350px;
+        margin-top: 100%;
+        */
+        
+        float: right;
+       
+      
+}
+
+#map-canvas1 p {
+        
+       text-align: justify;
+       
+      
+}
+
+#map-canvas2 {
+        
+        width: 500px;
+        height: 400px;
+        margin: 5%;
+        
+        
+        /*
+        margin-left: 350px;
+        margin-top: 100%;
+       */
+        
+        float: left; 
+       
+      
+}
+
+#map-canvas2 p {
+        
+       text-align: justify;
+       
+      
+}
+
+#bodyDiv {
+     margin-left: 350px;
+        margin-top: 100%;
+        width: 700px;
+        
+}
+.absoloute {
+    position: static;
+}
+        
+        
+
+/*
+#map-two{
+        width: 500px;
+        height: 400px;
+        border-left: 100px;
+        margin-top: 90px;
+        margin-bottom: 90px;
+        
+        margin-left: 400px;
+}
+#map-three {
+        width: 500px;
+        height: 400px;
+        border-left: 100px;
+        margin-top: 90px;
+        margin-bottom: 90px;
+        
+        margin-left: 400px;
+}
+*/

@@ -1,0 +1,3 @@
+@import url("style.css");
+
+@import url("small.css") only screen and (max-width:1000px);
